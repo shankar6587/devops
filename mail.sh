@@ -4,3 +4,4 @@ if [ $size -gt 20 ]
 then
 	echo "memory reaches the trushold value" | mail -s "memory reached" ambareeshns@gmail.com
 fi
+echo "mail sent"
